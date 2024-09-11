@@ -10,13 +10,11 @@ import pytest
 class TestApp:
     @pytest.fixture(autouse=True)
     def before(self):
-        from data import get_data
+        import main
 
         os.chdir(os.path.dirname(__file__))
         self.app_state = wf.init_state(
-            {
-                "main_df": get_data(),
-            }
+            main.initial_state,
         )
 
         yield
