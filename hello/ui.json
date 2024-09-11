@@ -78,22 +78,6 @@
             "position": 0,
             "parentId": "d1e01ce1-fab1-4a6e-91a1-1f45f9e57aa5"
         },
-        "7fdd1d02-53de-4466-bd3c-4822cbc2694f": {
-            "id": "7fdd1d02-53de-4466-bd3c-4822cbc2694f",
-            "type": "image",
-            "content": {
-                "src": "static/pigeon1.jpg?8",
-                "caption": ""
-            },
-            "isCodeManaged": false,
-            "position": 0,
-            "parentId": "9c30af6d-4ee5-4782-9169-0f361d67fa76",
-            "visible": {
-                "expression": true,
-                "binding": "",
-                "reversed": false
-            }
-        },
         "fbad9feb-5c88-4425-bb17-0d138286a875": {
             "id": "fbad9feb-5c88-4425-bb17-0d138286a875",
             "type": "sidebar",
@@ -200,7 +184,7 @@
             "id": "b27lw9ex8ig3x17p",
             "type": "tags",
             "content": {
-                "tags": "{\n  \"fiction\": \"fiction\",\n  \"inspirational\": \"inspirational\",\n  \"ai-generated\": \"ai-generated\"\n}",
+                "tags": "{\n  \"inspirational\": \"inspirational\",\n  \"ai-generated\": \"ai-generated\"\n}",
                 "seed": ""
             },
             "isCodeManaged": false,
@@ -238,7 +222,7 @@
                 "text": "Source: Data from DiffBot \ud83e\udd16\ud83e\ude76"
             },
             "isCodeManaged": false,
-            "position": 2,
+            "position": 3,
             "parentId": "0569937e-c72c-4fb9-820e-2ae56e17bcc0",
             "handlers": {}
         },
@@ -248,9 +232,31 @@
             "content": {
                 "spec": "@{my_chart_2}"
             },
-            "position": 1,
+            "isCodeManaged": false,
+            "position": 2,
             "parentId": "0569937e-c72c-4fb9-820e-2ae56e17bcc0",
             "handlers": {}
+        },
+        "lmnfzerdbzxhoylz": {
+            "id": "lmnfzerdbzxhoylz",
+            "type": "text",
+            "parentId": "0569937e-c72c-4fb9-820e-2ae56e17bcc0",
+            "content": {
+                "text": "And sentiment:"
+            },
+            "handlers": {},
+            "position": 1
+        },
+        "eece2p1dq36kwrfk": {
+            "id": "eece2p1dq36kwrfk",
+            "type": "image",
+            "parentId": "9c30af6d-4ee5-4782-9169-0f361d67fa76",
+            "content": {
+                "src": "static/image.webp",
+                "caption": "Image Caption"
+            },
+            "handlers": {},
+            "position": 0
         }
     }
 }
