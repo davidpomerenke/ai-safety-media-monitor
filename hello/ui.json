@@ -242,32 +242,13 @@
         "j18i2kpc22tipe9f": {
             "id": "j18i2kpc22tipe9f",
             "type": "vegalitechart",
-            "content": {},
-            "isCodeManaged": false,
-            "position": 1,
-            "parentId": "0569937e-c72c-4fb9-820e-2ae56e17bcc0",
-            "handlers": {}
-        },
-        "z489kuxlujaph6a9": {
-            "id": "z489kuxlujaph6a9",
-            "type": "text",
             "content": {
-                "text": "@{my_text}"
+                "spec": "@{my_chart}"
             },
             "isCodeManaged": false,
             "position": 0,
             "parentId": "0569937e-c72c-4fb9-820e-2ae56e17bcc0",
             "handlers": {}
-        },
-        "p697l3i5zk15q0km": {
-            "id": "p697l3i5zk15q0km",
-            "type": "text",
-            "parentId": "0569937e-c72c-4fb9-820e-2ae56e17bcc0",
-            "content": {
-                "text": "Text"
-            },
-            "handlers": {},
-            "position": 2
         }
     }
 }
