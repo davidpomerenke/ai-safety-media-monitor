@@ -17,6 +17,7 @@ data = get_data()
 spec = {
     "mark": "bar",
     "data": {"values": data.reset_index().to_dict(orient="records")},
+    "width": 400,
     "encoding": {
         "x": {
             "field": "index",
@@ -30,9 +31,24 @@ spec = {
 }
 
 
+spec2 = {
+    "mark": "line",
+    "data": {"values": data.reset_index().to_dict(orient="records")},
+    "width": 400,
+    "encoding": {
+        "x": {"field": "index", "type": "temporal"},
+        "y": {"field": "sentiment", "type": "quantitative"},
+        "color": {
+            "condition": {"test": "datum.sentiment > 0", "value": "green"},
+            "value": "red",
+        },
+    },
+}
+
 initial_state = wf.init_state(
     {
         "my_text": "Hello, world!!!",
         "my_chart": spec,
+        "my_chart_2": spec2,
     }
 )

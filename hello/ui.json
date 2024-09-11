@@ -28,7 +28,7 @@
             "id": "84378aea-b64c-49a3-9539-f854532279ee",
             "type": "header",
             "content": {
-                "text": "HACKER PIGEONS",
+                "text": "GITHUB HACK NIGHT",
                 "emptinessColor": "#000000",
                 "accentColor": "#ffffff"
             },
@@ -62,7 +62,7 @@
             "type": "column",
             "content": {
                 "width": "1.61",
-                "title": "@{my_text}"
+                "title": "Articles on AI safety over time"
             },
             "isCodeManaged": false,
             "position": 1,
@@ -178,7 +178,7 @@
             "id": "7b710d37-1c68-4d06-a65a-e6596ccc826a",
             "type": "text",
             "content": {
-                "text": "In a city plagued by technology gone awry, a group of unlikely heroes emerges. Introducing the Hacker Pigeons, a team of intelligent and resourceful pigeons on a mission to save their home from destruction. Follow their journey as they battle against malicious hackers, and prove that even the smallest creatures can make a big difference.",
+                "text": "AI Safety matters!",
                 "alignment": ""
             },
             "isCodeManaged": false,
@@ -189,31 +189,12 @@
             "id": "31c1b0d5-bfb6-4304-82bd-1687d492f0a2",
             "type": "heading",
             "content": {
-                "text": "Pigeon Power: Birds Tackle Data Apps",
+                "text": "AI Safety Monitor",
                 "alignment": ""
             },
             "isCodeManaged": false,
             "position": 1,
             "parentId": "9c30af6d-4ee5-4782-9169-0f361d67fa76"
-        },
-        "03f422ce-bc36-4000-8eb1-da1cc00948c9": {
-            "id": "03f422ce-bc36-4000-8eb1-da1cc00948c9",
-            "type": "button",
-            "content": {
-                "text": "Read the story",
-                "icon": "library_books"
-            },
-            "isCodeManaged": false,
-            "position": 5,
-            "parentId": "9c30af6d-4ee5-4782-9169-0f361d67fa76",
-            "handlers": {
-                "click": "$goToPage_story"
-            },
-            "visible": {
-                "expression": true,
-                "binding": "",
-                "reversed": false
-            }
         },
         "b27lw9ex8ig3x17p": {
             "id": "b27lw9ex8ig3x17p",
@@ -247,6 +228,27 @@
             },
             "isCodeManaged": false,
             "position": 0,
+            "parentId": "0569937e-c72c-4fb9-820e-2ae56e17bcc0",
+            "handlers": {}
+        },
+        "5zqh9tkqgjobxvds": {
+            "id": "5zqh9tkqgjobxvds",
+            "type": "text",
+            "content": {
+                "text": "Source: Data from DiffBot \ud83e\udd16\ud83e\ude76"
+            },
+            "isCodeManaged": false,
+            "position": 2,
+            "parentId": "0569937e-c72c-4fb9-820e-2ae56e17bcc0",
+            "handlers": {}
+        },
+        "1ftlkle8qod7qiw2": {
+            "id": "1ftlkle8qod7qiw2",
+            "type": "vegalitechart",
+            "content": {
+                "spec": "@{my_chart_2}"
+            },
+            "position": 1,
             "parentId": "0569937e-c72c-4fb9-820e-2ae56e17bcc0",
             "handlers": {}
         }

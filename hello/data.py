@@ -40,6 +40,7 @@ def get_data():
         pd.date_range(df.index.min(), df.index.max(), freq="D"), fill_value=0
     )
     df.columns = ["count", "sentiment"]
+    df = df.resample("M").sum()
     return df
     # plot counts and sentiment
     # df["count"].plot()
